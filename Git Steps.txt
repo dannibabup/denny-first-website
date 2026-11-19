@@ -1,0 +1,2 @@
+init git: 
+git status: To read the current state of an existing Git repository in CMD, navigate into your project folder and run git status to see active changes or git log to read your saved commit history.
