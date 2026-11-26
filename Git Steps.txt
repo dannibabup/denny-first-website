@@ -1,14 +1,15 @@
 init git: Hidden folder created.
 
-git remote add origin <link>: Link git to online repository for push pull.
-git pull origin master: Pull online repository to offline repository
+git remote add origin <link>: Link local git to online repository for push pull.
+git push -u origin main: Push to upstream after setting origin as main or master branch in remote repository
+git pull origin main: Pull online repository to offline repository
 
-git status: To find which all files in local workspace are indexed. 
+git status : To find which all files in local workspace are indexed. 
 git add "file name.ext" :  Add a file from local workspace to index.
 git commit "file name.ext": Commit "File name.ext" with changes till last add command.
 
 git add -A : Stages all files in local workspace with last known status for commit. Staging same as 'adding to index'
-git commit -m : Commit all indexed files upto last known staged point.
+git commit -m "message" : Commit all indexed files upto last known staged point.
 git commit -a -m "Committing all files": Automatically stages and also Commit all indexed files to local repository
 
 git config --global user.name "Your Name" :  Replace "Your Name" with "Denny"
@@ -18,4 +19,6 @@ git commit -m "Custom message" : Commit indexed files.
 
 git branch firstbranch : firstbranch is custom name of new branch created
 git checkout firstbranch : enter custom branch named first branch
+
+git pull origin main --allow-unrelated-histories -m "Message": Pull existing files from remote repository and merge with current files in local repository. 
 
