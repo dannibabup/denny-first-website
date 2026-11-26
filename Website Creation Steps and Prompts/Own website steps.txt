@@ -1,0 +1,11 @@
+First get a domain.
+
+.com is a Top Level Domain (TLD)
+When you a domain, you buy dennybabup.com wherein dennybabup is the second level domain within TLD.
+Any prefix to dennybabup.com like blog.dennybabup.com, algo.dennybabup,com are all subdomains for free.
+
+Flowchart to setup website:
+GoDaddy - Domain Buy in GoDaddy --> Oracle Cloud IP address create and website host --> Cloudflare Add IP --> In GoDaddy Add two Cloudflare Nameservers
+
+Public Website Query sequence after setup:
+Public URL Query <--> GoDaddy DNS Domain linked to Cloudflare Nameserver Address <--> Cloudflare Nameservers <--> Oracle IP Address

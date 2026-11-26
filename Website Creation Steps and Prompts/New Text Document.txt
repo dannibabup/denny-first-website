@@ -1,0 +1,3 @@
+Prompt to Gemini:
+Create a personal website for me.
+Take website inspiration from https://www.jakesinclair.ca/. Use HTML/CSS/JavaScript with React modules if necessary. Include photos that i have put in folder "Pictures for website" and descriptions that i have put in "About Myself.txt" file. Create a light weight website that is modest. I want to check it by hosting it locally and opening in chrome. Create a folder named site_files. Put all newly created site-related files and index.html in it. 

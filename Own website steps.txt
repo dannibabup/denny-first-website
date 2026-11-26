@@ -1,2 +1,0 @@
-First get a domain.
-Create a GitHub for development.
