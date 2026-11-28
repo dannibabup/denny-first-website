@@ -10,7 +10,8 @@ git add -A : Stages all files in local workspace with last known status for comm
 git commit -m "message" : Commit all indexed files upto last known staged point.
 git commit -a -m "Committing all files": Automatically stages and also Commit all indexed files to local repository
 
-git push -u origin main: Push to upstream after setting origin as main or master branch in remote repository
+git push -u origin main: Push to upstream after setting current branch as as main or master branch in remote repository
+git push: Once origin is set as main
 git pull origin main: Pull online repository to offline repository
 
 git config --global user.name "Your Name" :  Replace "Your Name" with "Denny"
