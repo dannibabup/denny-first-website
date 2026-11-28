@@ -1,10 +1,8 @@
 init git: Hidden folder created.
 
 git remote add origin <link>: Link local git to online repository for push pull.
-git push -u origin main: Push to upstream after setting origin as main or master branch in remote repository
-git pull origin main: Pull online repository to offline repository
 
-git status : To find which all files in local workspace are indexed. 
+git ls-files: list indexed files in git command
 git add "file name.ext" :  Add a file from local workspace to index.
 git commit "file name.ext": Commit "File name.ext" with changes till last add command.
 
@@ -12,13 +10,19 @@ git add -A : Stages all files in local workspace with last known status for comm
 git commit -m "message" : Commit all indexed files upto last known staged point.
 git commit -a -m "Committing all files": Automatically stages and also Commit all indexed files to local repository
 
+git push -u origin main: Push to upstream after setting origin as main or master branch in remote repository
+git pull origin main: Pull online repository to offline repository
+
 git config --global user.name "Your Name" :  Replace "Your Name" with "Denny"
 git config --global user.email "you@example.com" : Replace "you@example.com" with the "dannibabup@gmail.com" i.e. the email id of the repository you wish to push into
-
-git commit -m "Custom message" : Commit indexed files.
 
 git branch firstbranch : firstbranch is custom name of new branch created
 git checkout firstbranch : enter custom branch named first branch
 
 git pull origin main --allow-unrelated-histories -m "Message": Pull existing files from remote repository and merge with current files in local repository. 
+
+touch .gitignore: Create .gitignore from gitbash
+/SSH Keys/ : Add line 0in gitignore to ignore "SSH Keys" folder in main folder
+SSH Keys/ : Add line 0in gitignore to ignore "SSH Keys" folder in main folder and in any subfolders
+
 
